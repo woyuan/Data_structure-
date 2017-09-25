@@ -1,0 +1,25 @@
+第三章 线性表
+抽象数据类型定义如下
+
+ADT 线性表（List）
+Data
+	线性表的数据对象集合为{a1，a2,a3,……，an}每个元素的类型均为DataType，元素之间是一一对应关系。
+Operation	
+	Initlist (*L):	初始化操作，建立空的线性表L。
+	ListEmpty(L):	若线性表为空，返回true，否则false。
+	ClearList(*L):	线性表清空。
+	GetElem（L,i,*e):取第i个元素返回给*e。
+	LocateElem（L,e):
+	ListInsert（*L,i,e):
+	listDelete(*L,i,*e):
+	ListLenth(L):
+endADT
+
+线性表的链式存储结构与顺序存储结构
+
+静态链表，在早期高级编程语言，用数组描述
+
+
+
+
+
